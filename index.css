@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    background-color: rgb(221, 215, 178);
+}
+.name{
+    text-align: center;
+   font-family: cursive;
+}
+.list{
+    width: 500px;
+    height: 550px;
+    border: solid rgb(158, 158, 158) 1px;
+   margin: auto;
+}
+.box{
+   display: flex;
+  align-items: center; 
+  gap: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+ padding: 0 4px;
+   
+}
+.check{
+     width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.texts{
+    display: flex;
+    
+     width: 450px;
+     min-height: 29px;
+     font-size: larger;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     cursor: pointer;
+    
+}
+.texts:focus{
+  
+    outline: none; 
+}
+.remove{
+    border: solid black 1px;
+    padding: 2px;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.additem {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.additem:hover{
+    transition: background-color ease-in-out 1s;
+    transition: transform ease-in-out 0.4s;
+    background-color: burlywood;
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
